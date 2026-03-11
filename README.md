@@ -57,6 +57,7 @@ resource "aws_instance" "myec2" {
     name = "Terraform-Instance"
   }
 }
+```
 ---
 
 ## ⚠️ Best Practices
@@ -78,4 +79,4 @@ This project serves as a foundation for more complex infrastructure-as-code impl
 <div align="center">
 ⭐ Star this repository if you found it useful! ⭐
 
-</div> ```
+</div> 
