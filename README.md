@@ -1,4 +1,4 @@
-# <img src="https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg" width="30"> Terraform EC2 Instance Management
+# <img src="https://cdn.simpleicons.org/terraform" width="30"> Terraform EC2 Instance Management
 
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
@@ -57,3 +57,25 @@ resource "aws_instance" "myec2" {
     name = "Terraform-Instance"
   }
 }
+---
+
+## ⚠️ Best Practices
+
+🔐 Never commit .tfstate files to version control
+
+📝 Use variables for reusable configurations
+
+🏷️ Always tag resources for better management
+
+💾 Enable state locking for team environments
+
+🔄 Regularly update provider versions
+---
+
+## 🏁 Conclusion
+This project serves as a foundation for more complex infrastructure-as-code implementations. The workflow demonstrated here—create → verify → destroy—is essential for development, testing, and production environments.
+
+<div align="center">
+⭐ Star this repository if you found it useful! ⭐
+
+</div> ```
